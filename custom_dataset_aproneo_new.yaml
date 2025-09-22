@@ -1,0 +1,14 @@
+# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
+path: /home/test/yolov5/data/YOLO_ApronEO_Dataset_v3
+train: train/images
+val: train/images
+test: train/images
+
+nc: 32
+names: ['Aircraft', 'Ordinary_Vehicle', 'Towing_Car_Towbar', 'Towing_Car_Towbarless', 'Tug_Car',
+        'Cargo_Loader_Elevator', 'Cargo_Loader_Conveyor_Belt', 'Bus', 'Step_Car', 'Catering_Truck',
+        'Refueler_with_Tank', 'Refueler_without_Tank', 'Aircraft_Front_Wheel', 'Human',
+        'Animal', 'Cargo', 'Bridge_Connected', 'Cargo_Door_Opened', 'Towing_Car_Connected', 'Rubber_Cone',
+        'Ladder', 'Palette', 'Towbar', 'Elevator_Truck', 'Garbage_Car', 'Washer_Car', 'Crain_Truck', 'Tank_Truck', 
+        'Snowplow', 'Generator', 'Etc_Truck', 'Etc']
